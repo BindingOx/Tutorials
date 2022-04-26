@@ -111,13 +111,30 @@ a.learn-more:hover {
 }
 
 .section-header p {
+	font-weight: normal;
 	font-size: 20px;
-	line-height: 37.6px;
+	line-height: 185%;
+	color: #000000;
 }
 
-/* inside feature 1 box and text */
+/* inside features box and text */
+
 .feature-1 {
 	background: rgba(104, 201, 58, 0.1);
+}
+
+.feature-2 {
+	background: rgba(227, 53, 158, 0.1);
+}
+
+.feature-3 {
+	background: rgba(157, 89, 244, 0.1);
+}
+.feature-4 {
+	background: rgba(58, 81, 201, 0.1);
+}
+
+.single-features {
 	border-radius: 34px;
 }
 
@@ -128,15 +145,16 @@ a.learn-more:hover {
 }
 
 .feature-text p {
-	font-weight: 400;
+	font-weight: normal;
 	font-size: 17px;
 	line-height: 190.18%;
 	color: #000000;
 }
 
-
 .feature-img img {
-	width: 400px;
+    width: 350px;
+    margin-right: 40px;
+    margin-top: 60px;
 }
 
 .feature-text a {
@@ -147,6 +165,6 @@ a.learn-more:hover {
 	transition: 0.2s color ease;
 }
 
-.feature-text a:hover{
+.feature-text a:hover {
 	color: gray;
 }
