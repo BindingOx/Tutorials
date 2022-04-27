@@ -150,10 +150,11 @@ a.learn-more:hover {
 .feature-text p {
 	font-weight: normal;
 	font-size: 17px;
-	line-height: 190.18%;
+	/* line-height: 190.18%; */
 	color: #000000;
 	/** setting constraints on the box in order to fix it */
-	width: 400px;
+	width: 300px;
+	height: 150px;
 }
 
 .feature-img img {
