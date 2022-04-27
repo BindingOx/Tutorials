@@ -136,7 +136,10 @@ a.learn-more:hover {
 
 .single-features {
 	border-radius: 34px;
+	/** setting constraints on the box in order to fix it */
+	height: 300px;
 }
+
 
 .feature-text h3 {
 	font-weight: 600;
@@ -149,12 +152,14 @@ a.learn-more:hover {
 	font-size: 17px;
 	line-height: 190.18%;
 	color: #000000;
+	/** setting constraints on the box in order to fix it */
+	width: 400px;
 }
 
 .feature-img img {
-    width: 350px;
-    margin-right: 40px;
-    margin-top: 60px;
+	width: 350px;
+	margin-right: 40px;
+	margin-top: 60px;
 }
 
 .feature-text a {
